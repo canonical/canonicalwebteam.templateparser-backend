@@ -15,7 +15,7 @@
     "watch-static": "watch -p 'static/client/**/*' -c 'yarn run build'"
   },
   "dependencies": {
-    "@canonical/react-components": "0.59.0",
+    "@canonical/react-components": "0.59.1",
     "axios": "1.7.2",
     "classnames": "2.5.1",
     "formik": "2.4.6",
