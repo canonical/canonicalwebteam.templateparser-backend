@@ -1,4 +1,4 @@
-FROM ubuntu:jammy 
+FROM ubuntu:noble 
 WORKDIR /srv
 
 # Build stage: Install python dependencies
@@ -30,7 +30,7 @@ RUN yarn run build-css
 
 # Build the production image
 # ===
-FROM ubuntu:jammy
+FROM ubuntu:noble
 
 # Install python and import python dependencies
 RUN apt-get update && apt-get install --no-install-recommends --yes python3-lib2to3 python3-setuptools python3-pkg-resources ca-certificates libsodium-dev
